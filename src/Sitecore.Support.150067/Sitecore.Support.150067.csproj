@@ -87,7 +87,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Config\Include\zzz\Sitecore.Support.150067.config" />
     <Content Include="sitecore\shell\client\Applications\ECM\EmailCampaign.Client\constants.js" />
   </ItemGroup>
   <ItemGroup>
