@@ -41,37 +41,36 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Sitecore.ContentSearch">
-      <HintPath>..\..\lib\Sitecore.ContentSearch.dll</HintPath>
+      <HintPath>..\packages\SC.Sitecore.ContentSearch.8.2.1\lib\Sitecore.ContentSearch.dll</HintPath>
     </Reference>
     <Reference Include="Sitecore.ContentSearch.Analytics">
-      <HintPath>..\..\lib\Sitecore.ContentSearch.Analytics.dll</HintPath>
+      <HintPath>..\packages\SC.Sitecore.ContentSearch.Analytics.8.2.1\lib\Sitecore.ContentSearch.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.EmailCampaign, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\EXM.Sitecore.EmailCampaign.3.4.0\lib\Sitecore.EmailCampaign.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.EmailCampaign.Server">
-      <HintPath>..\..\lib\Sitecore.EmailCampaign.Server.dll</HintPath>
+      <HintPath>..\packages\EXM.Sitecore.EmailCampaign.Server.3.4.0\lib\Sitecore.EmailCampaign.Server.dll</HintPath>
     </Reference>
     <Reference Include="Sitecore.ExM.Framework">
-      <HintPath>..\..\lib\Sitecore.ExM.Framework.dll</HintPath>
+      <HintPath>..\packages\EXM.Sitecore.ExM.Framework.3.4.0\lib\Sitecore.ExM.Framework.dll</HintPath>
     </Reference>
     <Reference Include="Sitecore.Kernel">
       <HintPath>..\packages\SC.Sitecore.Kernel.8.2.1\lib\Sitecore.Kernel.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Sitecore.EmailCampaign">
-      <HintPath>..\packages\EXM.Sitecore.EmailCampaign.3.4.0\lib\Sitecore.EmailCampaign.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Sitecore.ListManagement, Version=1.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\lib\Sitecore.ListManagement.dll</HintPath>
+    <Reference Include="Sitecore.ListManagement">
+      <HintPath>..\packages\SC.Sitecore.ListManagement.8.2.1\lib\Sitecore.ListManagement.dll</HintPath>
     </Reference>
     <Reference Include="Sitecore.ListManagement.ContentSearch">
-      <HintPath>..\..\lib\Sitecore.ListManagement.ContentSearch.dll</HintPath>
+      <HintPath>..\packages\SC.Sitecore.ListManagement.ContentSearch.8.2.1\lib\Sitecore.ListManagement.ContentSearch.dll</HintPath>
     </Reference>
     <Reference Include="Sitecore.Services.Core">
-      <HintPath>..\..\lib\Sitecore.Services.Core.dll</HintPath>
+      <HintPath>..\packages\SC.Sitecore.Services.Core.8.2.1\lib\Sitecore.Services.Core.dll</HintPath>
     </Reference>
     <Reference Include="Sitecore.Services.Infrastructure">
-      <HintPath>..\..\lib\Sitecore.Services.Infrastructure.dll</HintPath>
+      <HintPath>..\packages\SC.Sitecore.Services.Infrastructure.8.2.1\lib\Sitecore.Services.Infrastructure.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Drawing" />
