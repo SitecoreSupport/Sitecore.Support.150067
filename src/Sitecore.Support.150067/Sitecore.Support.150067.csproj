@@ -100,6 +100,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Config\Include\zzz\Sitecore.Support.150067.config" />
+    <Content Include="sitecore\shell\client\Applications\ECM\EmailCampaign.Client\Component\Tab\RecipientsTab.js" />
     <None Include="packages.config" />
     <None Include="web.config" />
   </ItemGroup>
