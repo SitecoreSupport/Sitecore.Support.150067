@@ -5,3 +5,4 @@ src/Sitecore.Support.150067/obj/
 *.pubxml
 *.user
 *.suo
+!lib/*
